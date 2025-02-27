@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .login,
+        .title {
+            border-radius: 20px;
+            padding: 20px;
+            align-items: center;
+            margin: auto;
+            border-style: solid;
+            border-width: 5px;
+            box-shadow: 10px 10px;
+            background-color: white;
+            text-align: center;
+        }
+
+        body {
+            background-image: url("static/mountans.jpg");
+            background-size: cover;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <h2>Register</h2>
+        <form method="POST" action="register">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="password">birthday</label>
+            <input type="date" id="birth" name="birth" required><br><br>
+            <label for="password">ssn:</label>
+            <input type="text" id="ssn" name="ssn" required><br><br>
+            <label for="password">email:</label>
+            <input type="text" id="email" name="email" required><br><br>
+            <label for="password">I agree to sell my soul to evil co:</label>
+            <input type="checkbox" id="ag" value="True">
+            <br>
+            <label for="password">Sign me up for all the mailing lists:</label>
+            <input type="checkbox" id="ml" value="True">
+            <br>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="main">Login here</a></p>
+    </div>
+</body>
+
+</html>

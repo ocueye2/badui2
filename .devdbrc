@@ -1,0 +1,6 @@
+[
+  {
+    "type": "sqlite",
+    "path": "/config/workspace/hacksurrender/users.db"
+  }
+]
